@@ -68,5 +68,12 @@ This was not an error because this is suppoesed to happen.
 ```
 [user@sahara ~/lecture1]$ cd Hello.java 
 bash: cd: Hello.java: Not a directory
+[user@sahara ~/lecture1]$ pwd
+/home/lecture1
 ```
+Working directory when command was ran: /home/lecture1
+
+The reason why I got the output of a terminal message saying "bash: cd: Hello.java: Not a directory" was because the cd command doesnt work on a file since the command can only switch to a file directory hence why the message said it was not a directry.
+
+I dont think that this was an error because nothing bad happened to the program it only told me that the specific command with a file path doesnt work. 
 
