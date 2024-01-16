@@ -50,13 +50,20 @@ Working directory when command was ran: /home
 
 The reason why I got the output of nothing and the working directory to change from /home/lecture1 to /home was because when you use the cd command by itself, it returns you to the home directory. 
 
-This was not an error because this is supposed to happen. 
+This was not an error because this was the correct output. 
 
 **With a path to a directory as an argument:**
 ```
 [user@sahara ~/lecture1]$ cd messages/
-[user@sahara ~/lecture1/messages]$
+[user@sahara ~/lecture1/messages]$ pwd
+/home/lecture1/messages
 ```
+Working directory when command was ran: /home/lecture1/messages
+
+The reason why I got the output of the current directory changing to the messages directory is because the cd command is the change directory command which is used to switch the current working directory to a given path which in this case is the messages directory. 
+
+This was not an error because this is suppoesed to happen. 
+
 **With a path to a file as an argument:**
 ```
 [user@sahara ~/lecture1]$ cd Hello.java 
