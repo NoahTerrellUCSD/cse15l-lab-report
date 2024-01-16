@@ -12,6 +12,7 @@ Hello.class  Hello.java  messages  README
 The reason why I got the output of the terminal printing "Hello.class Hello.java messages README" was because the ls command also known as the list command, prints the list of files and folders in the given path but in this case since there was no argument, the ls command printed the list from the current directory. 
 
 This output was not an error because the command did what it was supposed to do.
+
 **With a path to a directory as an argument:**
 ```
 [user@sahara ~/lecture1]$ ls messages/
