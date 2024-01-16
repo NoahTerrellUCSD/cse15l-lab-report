@@ -77,3 +77,14 @@ The reason why I got the output of a terminal message saying "bash: cd: Hello.ja
 
 I dont think that this was an error because nothing bad happened to the program it only told me that the specific command with a file path doesnt work. 
 
+## cat Command
+**With no argument:**
+```
+
+```
+Working directory when command was ran: 
+
+**With a path to a directory as an argument:**
+```
+
+```
