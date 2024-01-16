@@ -15,3 +15,19 @@ With a path to a file as an argument:
 [user@sahara ~/lecture1/messages]$ ls en-us.txt 
 en-us.txt
 ```
+## cd Command
+With no argument:
+```
+[user@sahara ~/lecture1]$ cd
+```
+With a path to a directory as an argument:
+```
+[user@sahara ~/lecture1]$ cd messages/
+[user@sahara ~/lecture1/messages]$
+```
+With a path to a file as an argument:
+```
+[user@sahara ~/lecture1]$ cd Hello.java 
+bash: cd: Hello.java: Not a directory
+```
+
