@@ -75,16 +75,47 @@ Working directory when command was ran: /home/lecture1
 
 The reason why I got the output of a terminal message saying "bash: cd: Hello.java: Not a directory" was because the cd command doesnt work on a file since the command can only switch to a file directory hence why the message said it was not a directry.
 
-I dont think that this was an error because nothing bad happened to the program it only told me that the specific command with a file path doesnt work. 
+I think that it is a small error because the terminal returns a message that says the Hello.java file is not a directory therefore you cannot switch to that directory because it is a file. 
 
 ## cat Command
 **With no argument:**
 ```
+[user@sahara ~/lecture1]$ cat
+
+
+[user@sahara ~/lecture1]$ pwd
+/home/lecture1
 
 ```
-Working directory when command was ran: 
+Working directory when command was ran: standard input output
+
+The reason why I had the output of the user in the terminal disappearing after using the cat command without an agumentis because when you use the cat command without an argument, it makes the terminal read from standard input output which is why there is no user@sahara. You then can use ctrl + D to exit out of the standard input output mode and return to the normal terminal mode. 
+
+This output was not an error because there was nothing wrong with the terminal when I ran the cat command and because I was able to get the terminal back to norrmal. 
 
 **With a path to a directory as an argument:**
 ```
-
+[user@sahara ~/lecture1]$ cat messages/
+cat: messages/: Is a directory
+[user@sahara ~/lecture1]$ pwd
+/home/lecture1
 ```
+Working directory when command was ran: /home/lecture1
+
+The reason why I had the output of the terminal returning a message saying "cat: messages/: Is a directory" is because the cat command aka concatenate, prints whatever file you give it for the argument and since I gave it a directory hence why it says it is a directory, this is why it didnt work because it needs to be a file. 
+
+I think this is a small error because the terminal gives a message saying that he command doesnt work because the path is a directory.
+
+**With a path to a file as an argument:**
+```
+[user@sahara ~/lecture1]$ cat messages/en-us.txt 
+Hello World!
+[user@sahara ~/lecture1]$ pwd
+/home/lecture1
+```
+Working directory when command was ran: /home/lecture1
+
+The reason why I got the output of the terminal printing "Hello World!" is because since the cat command prints the contents of a file, because I used the path messages/en-us.txt, it printed whhat was in the en-us.txt file which was Hello world. 
+
+This was not an error as this was supposed to happpen.
+
