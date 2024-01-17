@@ -116,6 +116,7 @@ Hello World!
 Working directory when command was ran: /home/lecture1
 
 The reason why I got the output of the terminal printing "Hello World!" is because since the cat command prints the contents of a file, because I used the path messages/en-us.txt, it printed whhat was in the en-us.txt file which was Hello world. 
+The working directory also never changed because we are only looking at the contents and not changing anything.
 
 This was not an error as this was supposed to happpen.
 
