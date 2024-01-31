@@ -49,3 +49,5 @@ class ChatServer {
 ***ScreenShot 2:***
 
 ![Image](Screenshot2lab2.png)
+
+## Part 2 
