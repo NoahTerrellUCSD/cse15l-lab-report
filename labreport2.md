@@ -59,5 +59,5 @@ class ChatServer {
 
 ***Terminal interaction where I log into my ieng6 account without being asked for a password:***
 ![Image](p2sc3labreport2.png)
-
+---
 ## Part 3
