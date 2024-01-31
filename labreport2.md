@@ -66,7 +66,6 @@ The field I use for my class handler is an empty String called chatServerString 
 Methods that are called: ``` .getPath.contains() ```  ``` .split() ```
 
 Explanation: For the second screenshot the methods that are used are the same ones in the first and have the same explanation as screenshot 1.
-Values of relevant fields and what they change to from the specific request in the screenshot: 
 
 Values of relevant fields and what they change to from the specific request in the screenshot: 
 
