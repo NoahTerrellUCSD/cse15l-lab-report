@@ -43,7 +43,9 @@ class ChatServer {
 ```
 
 ***Screenshot 1:***
-![Image](![Uploading Screenshot 2024-01-30 194947.png…]()
-)
+
+![Image](Screenshot1lab2.png)
 
 ***ScreenShot 2:***
+
+![Image](Screenshot2lab2.png)
