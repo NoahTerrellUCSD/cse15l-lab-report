@@ -45,12 +45,12 @@ class ChatServer {
 ***Screenshot 1:***
 
 ![Image](Screenshot1lab2.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ***ScreenShot 2:***
 
 ![Image](Screenshot2lab2.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## Part 2 
 ***-Absolute path to the private key for my SSH key for logging into ieng6 on my computer:***
@@ -61,5 +61,5 @@ class ChatServer {
 
 ***-Terminal interaction where I log into my ieng6 account without being asked for a password:***
 ![Image](p2sc3labreport2.png)
---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Part 3
