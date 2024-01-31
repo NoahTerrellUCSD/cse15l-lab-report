@@ -45,14 +45,13 @@ class ChatServer {
 ***Screenshot 1:***
 
 ![Image](Screenshot1lab2.png)
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ***ScreenShot 2:***
 
 ![Image](Screenshot2lab2.png)
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Part 2 
 ***-Absolute path to the private key for my SSH key for logging into ieng6 on my computer:***
 ![Image](p2sc1labreport2.png)
