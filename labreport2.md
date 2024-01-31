@@ -63,3 +63,6 @@ class ChatServer {
 ![Image](p2sc3labreport2.png)
 
 ## Part 3
+
+***What I learned from lab in week 2 or 3 that you didn't know before:***
+
