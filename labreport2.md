@@ -46,7 +46,9 @@ class ChatServer {
 
 ![Image](Screenshot1lab2.png)
 Methods that are called: ``` .getPath().equals() ``` ``` .getPath.contains() ```  ``` .split() ```
+
 Explanation:
+
 In screenshot 1 when the "/add-message" path is inside of the url and the rest of the query is corectly added, when the user enters this request into the url then the handelRequest method gets called and the new url gets passed into this method. then inside the handeRequest method, I first check if the url path is equal to "/" or just the default url without any arguments like this. ``` if (url.getPath().equals("/")) ``` Then if it is not equal I check if the url's path contains the "/add-message" path by using the .contains method like this ```else if (url.getPath().contains("/add-message")) ```  And if it does then proceed to split the query by the "=" and "&" symbol by using the ```.split()``` method. 
 
 
