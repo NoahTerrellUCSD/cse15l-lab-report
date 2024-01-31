@@ -67,6 +67,10 @@ Methods that are called: ``` .getPath.contains() ```  ``` .split() ```
 
 Explanation: For the second screenshot the methods that are used are the same ones in the first and have the same explanation as screenshot 1.
 
+Relevant arguments to those methods:
+
+For screenshot 2 it uses the same arguments for the methods that were used in screenshot 1.
+
 Values of relevant fields and what they change to from the specific request in the screenshot: 
 
 For screenshot 2 it uses the same field as screenshot 1 and has the same functionality of how it changes but for this one when the user enters the query parameters for the message "hi how are you" and the user name "Bob" like this /add-message?s=hi how are you&user=Bob then the field gets concatenated like this again ```chatServerString += user + ": " + message + "\n";``` which would return "Bob: hi how are you" to the webserver. 
