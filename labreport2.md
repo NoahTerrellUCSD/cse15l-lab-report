@@ -77,7 +77,7 @@ For screenshot 2 it uses the same field as screenshot 1 and has the same functio
 
 ## Part 2 
 ***-Absolute path to the private key for my SSH key for logging into ieng6 on my computer:***
-![Image](p2sc1labreport2.png)
+![Image](Screenshot 2024-02-11 184750.png)
 
 ***-Absolute path to the public key for my SSH key for logging into ieng6:***
 ![Image](Screenshot 2024-02-11 184307.png)
