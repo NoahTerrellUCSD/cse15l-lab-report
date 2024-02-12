@@ -6,4 +6,6 @@
 
 [Lab Report 2](https://noahterrellucsd.github.io/cse15l-lab-report/labreport2.html) 
 
+[Lab Report 3](https://noahterrellucsd.github.io/cse15l-lab-report/labreport3.html) 
+
 *Hellow World*
