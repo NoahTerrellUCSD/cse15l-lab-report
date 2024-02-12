@@ -11,7 +11,7 @@ public void testReversed() {
   }
 ```
 
-***Input that doesn't induce a failure, as a JUnit test:***
+***Input that doesn't induce a failure as a JUnit test:***
 ```
   @Test
   public void testReversed() {
