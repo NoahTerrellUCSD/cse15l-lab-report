@@ -80,7 +80,7 @@ For screenshot 2 it uses the same field as screenshot 1 and has the same functio
 ![Image](p2sc1labreport2.png)
 
 ***-Absolute path to the public key for my SSH key for logging into ieng6:***
-![Image](p2sc2labrport2.png)
+![Image](Screenshot 2024-02-11 184307.png)
 
 ***-Terminal interaction where I log into my ieng6 account without being asked for a password:***
 ![Image](p2sc3labreport2.png)
