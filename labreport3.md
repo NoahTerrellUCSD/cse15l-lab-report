@@ -19,3 +19,8 @@ public void testReversed() {
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
+
+***Symptom (output) of the Failure-inducing input for the buggy program as a JUnit Test:***
+```
+
+```
