@@ -69,7 +69,7 @@ The new code fixes this because as we are iterating over the original array, we 
 
 ***Find command with -name examples: ```find -name <file/directory name>```***
 
-source for where I found how to use this command https://adamtheautomator.com/bash-find/ 
+source for where I found how to use this command ["https://adamtheautomator.com/bash-find/"]
 
 Example 1
 ```
