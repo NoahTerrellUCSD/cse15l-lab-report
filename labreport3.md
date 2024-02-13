@@ -83,7 +83,6 @@ noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical (main)
 $ find -name "water_fees.txt"
 ./government/Media/water_fees.txt
 ```
-
-What the find command followed by a directory name is doing is that it's finding all of the files and directories that are in the directory you stated after the find command.
+What is happending is that when I used ```find -name "water_fees.txt"``` is that it searches for the file named water_fees.txt and displays the path to the file. This is useful becasue you can just use this command instead of navigating through the files with ls and cd.
 
 
