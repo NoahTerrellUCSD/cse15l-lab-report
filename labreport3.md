@@ -67,31 +67,23 @@ The new code fixes this because as we are iterating over the original array, we 
 
 ### Find command 
 
-***Find command with directory examples: ```find <directory name>```***
+***Find command with directory examples: ```find -name <file/directory name>```***
 
 Example 1
 ```
-noaht@nyogaL MINGW64 ~
-$ find Downloads/
-Downloads/
-Downloads/20240110_161520.jpg
-Downloads/20240110_161520.pdf
-Downloads/20240117_100724.jpg
-Downloads/20240123_160549.jpg
-Downloads/20240127_182840.jpg
-Downloads/20240131_000002.jpg
-Downloads/20240206_125443.jpg
-Downloads/ChromeSetup.exe
-Downloads/COGS1 Week 3 Slides Kayla.pdf
-Downloads/cogs1-wi24-A04-section1 (1).pdf
-Downloads/cogs1-wi24-A04-section1.pdf
-Downloads/COGS1_Ana_A01_Exam1_Review.pdf
+noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
+$ find -name "biomed"
+./technical/biomed
 ```
-What the find command followed by a directory name is doing is that it's finding all of the files and directories in the  
+What is happening is when you use  ```find -name "biomed"``` is it searches for the directory named biomed and displays the path to it. This is useful because you can ue this command instead of using cd and ls to look for the directory you need. 
 
 Example 2
 ```
-
+noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch/technical (main)
+$ find -name "water_fees.txt"
+./government/Media/water_fees.txt
 ```
+
+What the find command followed by a directory name is doing is that it's finding all of the files and directories that are in the directory you stated after the find command.
 
 
