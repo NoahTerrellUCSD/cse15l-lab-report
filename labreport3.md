@@ -67,7 +67,7 @@ The new code fixes this because as we are iterating over the original array, we 
 
 ### Find command 
 
-***Find command with directory examples: find <directory name>***
+***Find command with directory examples: ```find <directory name>```***
 
 Example 1
 ```
