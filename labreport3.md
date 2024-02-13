@@ -21,11 +21,11 @@ public void testReversed() {
 ```
 
 ***Symptom (output) of the Failure-inducing input for the buggy program as a JUnit Test:***
-```
-Screenshot 2024-02-12 124153.png
-```
+![Image](Screenshot 2024-02-12 124153.png)
+
 
 ***Symptom (output) of the Input that doesn't induce a failure as a JUnit test:***
-```
-Screenshot 2024-02-12 123937.png
-```
+![Image](Screenshot 2024-02-12 123937.png)
+
+
+
