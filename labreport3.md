@@ -67,4 +67,29 @@ The new code fixes this because as we are iterating over the original array, we 
 
 ### Find command 
 
+***Find command with directory examples: find <directory name>***
+
+Example 1
+```
+noaht@nyogaL MINGW64 ~
+$ find Downloads/
+Downloads/
+Downloads/20240110_161520.jpg
+Downloads/20240110_161520.pdf
+Downloads/20240117_100724.jpg
+Downloads/20240123_160549.jpg
+Downloads/20240127_182840.jpg
+Downloads/20240131_000002.jpg
+Downloads/20240206_125443.jpg
+Downloads/ChromeSetup.exe
+Downloads/COGS1 Week 3 Slides Kayla.pdf
+Downloads/cogs1-wi24-A04-section1 (1).pdf
+Downloads/cogs1-wi24-A04-section1.pdf
+Downloads/COGS1_Ana_A01_Exam1_Review.pdf
+```
+Example 2
+```
+
+```
+
 
