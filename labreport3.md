@@ -32,7 +32,7 @@ The symptom of the input that doesn't induce a failure is that all tests passed.
 
 ![Image](Screenshot 2024-02-12 123937.png)
 
-***Bug before code:***
+***Bug code before : Broken***
 
 ```
 static int[] reversed(int[] arr) {
@@ -44,7 +44,7 @@ static int[] reversed(int[] arr) {
 }
 ```
 
-***Bug after code:***
+***Bug code after: Fixed***
 
 ```
 static int[] reversed(int[] arr) {
