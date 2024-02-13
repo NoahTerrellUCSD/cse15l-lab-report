@@ -22,12 +22,14 @@ The input that didnt cause a failure was an input of an empty array ```{} ```.
 ```
 
 ***Symptom (output) of the Failure-inducing input for the buggy program as a JUnit Test:***
-Thesymptom of the failure inducing input was that at element 0 the value was 0 but was expected to be 5.
+The symptom of the failure inducing input was that at element 0 the value was 0 but was expected to be 5.
+
 ![Image](Screenshot 2024-02-12 124153.png)
 
 
 ***Symptom (output) of the Input that doesn't induce a failure as a JUnit test:***
 The symptom of the input that doesn't induce a failure is that all tests passed. 
+
 ![Image](Screenshot 2024-02-12 123937.png)
 
 ***Bug before code:***
