@@ -58,7 +58,7 @@ static int[] reversed(int[] arr) {
 
 ***Bug code fix explanation:***
 
-The reason the original code did not work was because in the for loop when iterating over the original aray, we were assigning the old array the values from the new array which were all zeros. ANd then returns the old array. 
+The reason the original code did not work was because in the for loop when iterating over the original aray, we were assigning the old array the values from the new array which were all zeros. And then we return the old array. 
 
 The new code fixes this because as we are iterating over the original array, we are assigning the new array the values of the old array then once the loop is done we are returning the correct newly coppied array. 
 
