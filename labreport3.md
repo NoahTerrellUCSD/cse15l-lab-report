@@ -30,5 +30,17 @@ Thesymptom of the failure inducing input was that at element 0 the value was 0 b
 The symptom of the input that doesn't induce a failure is that all tests passed. 
 ![Image](Screenshot 2024-02-12 123937.png)
 
+***Bug before code:***
+
+```
+ 
+```
+
+***Bug after code:***
+
+```
+
+```
+
 
 
