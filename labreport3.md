@@ -41,7 +41,7 @@ static int[] reversed(int[] arr) {
       arr[i] = newArray[arr.length - i - 1];
     }
     return arr;
-  }
+}
 ```
 
 ***Bug after code:***
