@@ -69,6 +69,8 @@ The new code fixes this because as we are iterating over the original array, we 
 
 ***Find command with -name examples: ```find -name <file/directory name>```***
 
+source for where I found how to use this command https://adamtheautomator.com/bash-find/ 
+
 Example 1
 ```
 noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
@@ -84,5 +86,21 @@ $ find -name "water_fees.txt"
 ./government/Media/water_fees.txt
 ```
 What is happending is that when I used ```find -name "water_fees.txt"``` is that it searches for the file named water_fees.txt and displays the path to the file. This is useful becasue you can just use this command instead of navigating through the files with ls and cd.
+
+***Find command with > examples: ```find <directory name> > <file>.txt```***
+
+Example 1
+
+Input:
+```
+noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
+$ find technical/ > find-results-test.txt
+```
+Output: the file find-results-test.txt was created and all of the directories 
+
+Example 2
+```
+
+```
 
 
