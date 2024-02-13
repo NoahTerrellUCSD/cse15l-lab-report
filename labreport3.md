@@ -65,4 +65,6 @@ The new code fixes this because as we are iterating over the original array, we 
 
 ## Part 2 - Researching Commands
 
+### Find command 
+
 
