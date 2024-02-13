@@ -2,7 +2,7 @@
 ## Part 1 Bugs
 
 ***Failure-inducing input for the buggy program as a JUnit Test:***
-
+The input that caused the failure was an array of ```{1,2,3,4} ```.
 ```
 @Test
 public void testReversed() {
@@ -12,6 +12,7 @@ public void testReversed() {
 ```
 
 ***Input that doesn't induce a failure as a JUnit test:***
+The input that didnt cause a failure was an input of an empty array ```{} ```.
 ```
   @Test
   public void testReversed() {
