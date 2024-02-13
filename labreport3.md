@@ -87,6 +87,8 @@ Downloads/cogs1-wi24-A04-section1 (1).pdf
 Downloads/cogs1-wi24-A04-section1.pdf
 Downloads/COGS1_Ana_A01_Exam1_Review.pdf
 ```
+What the find command followed by a directory name is doing is that it's finding all of the files and directories in the  
+
 Example 2
 ```
 
