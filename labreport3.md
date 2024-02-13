@@ -63,5 +63,6 @@ The reason the original code did not work was because in the for loop when itera
 The new code fixes this because as we are iterating over the original array, we are assigning the new array the values of the old array then once the loop is done we are returning the correct newly coppied array. 
 
 
+## Part 2 - Researching Commands
 
 
