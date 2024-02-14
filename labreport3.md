@@ -161,9 +161,29 @@ technical/government/About_LSC/Protocol_Regarding_Access.txt
 What is happening is that when I use the find command with a path and then use the -maxdepth command with a parameter and the -type f command like this ```find technical/government/ -maxdepth 2 -type f``` is that im basically saying to find all of the files 2 directories deep in the government drectory which is why the terminal returned a bunch of files. This is useful because if I wanted to look at all of the files two directories deep in the government directory then I can just use this. 
 
 
+***Find command with -iname and "**" examples: ```find <path> -maxdepth <number> -type <type>```***
 
+source for where I found how to use this command [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command)
 
+Example 1
+```
+noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
+$ find technical/ -iname "*mitchell*"
+technical/government/Post_Rate_Comm/Mitchell_6-17-Mit.txt
+technical/government/Post_Rate_Comm/Mitchell_RMVancouver.txt
+technical/government/Post_Rate_Comm/Mitchell_spyros-first-class.txt
 
-3: 
-$ find technical/ -maxdepth 3 -type d -or -type f
+```
+What is happening is that when I use the find command with a path and the -name command with the stars in the quotes like this ```find technical/ -iname "*mitchell*"``` is that im finding everything in that path that has atleast the word "mitchell" in it whether that be a file or a directory which is why the teminal returned several files containg the word Mitchell. I also used the -iname command which helps with this because it makes the search not case sensitive so it will include both anything that has uppercase or lowercase. This is helpful because if you remember part of a file name but not the exact thing then you can search for it using these commands.
+
+Example 2
+```
+noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
+$ find technical/ -iname "*med*" -type d
+technical/biomed
+technical/government/Media
+
+```
+What is happening is that when I use the find command with the technical path and the -iname command with the stars inside of the quotes along with the -type d command like this ```find technical/ -iname "*med*" -type d``` is that it basically searches for all of the directories in the technical directory that contain the word med in it uppercase or not then it returns those directories to the terminal. This is useful because if you need to look for a directory but only remember a small part of the name then you can just use thee commands.  
+
 
