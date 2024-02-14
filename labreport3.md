@@ -87,20 +87,42 @@ $ find -name "water_fees.txt"
 ```
 What is happending is that when I used ```find -name "water_fees.txt"``` is that it searches for the file named water_fees.txt and displays the path to the file. This is useful becasue you can just use this command instead of navigating through the files with ls and cd.
 
-***Find command with > examples: ```find <directory name> > <file>.txt```***
+***Find command with -type examples: ```find <name> -type <type>```***
+
+source for where I found how to use this command [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command)
 
 Example 1
 
-Input:
 ```
 noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
-$ find technical/ > find-results-test.txt
+$ find technical -type d
+technical
+technical/911report
+technical/biomed
+technical/government
+technical/government/About_LSC
+technical/government/Alcohol_Problems
+technical/government/Env_Prot_Agen
+technical/government/Gen_Account_Office
+technical/government/Media
+technical/government/Post_Rate_Comm
+technical/plos
 ```
-Output: the file find-results-test.txt was created and all of the directories 
 
 Example 2
 ```
+noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
+$ find technical/plos -type f
+technical/plos/journal.pbio.0020001.txt
+technical/plos/journal.pbio.0020010.txt
+technical/plos/journal.pbio.0020012.txt
+technical/plos/journal.pbio.0020013.txt
 
 ```
+
+3: 
+noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
+$ find -type f -iname "*july*"
+./technical/government/Gen_Account_Office/July11-2001_gg00172r.txt
 
 
