@@ -108,6 +108,7 @@ technical/government/Media
 technical/government/Post_Rate_Comm
 technical/plos
 ```
+What is happening is that when you use the find command with a directory and then add the -type command with d following it like this ```find technical -type d``` is that you are basically saying to find inside the technical directory any thing that is type directory. As you can see when we did this it returns every directory inside of the technical directry. This is helpful because we may want to look at all of the directories in a specific directory. 
 
 Example 2
 ```
@@ -117,8 +118,10 @@ technical/plos/journal.pbio.0020001.txt
 technical/plos/journal.pbio.0020010.txt
 technical/plos/journal.pbio.0020012.txt
 technical/plos/journal.pbio.0020013.txt
+...
 
 ```
+What is happening is that when you use find with a path and then the command -type with f following it like this ```find technical/plos -type f``` is that you are basically saying to find in this path anything of the type file so basically all of the files. As you can see when we do this it returns all of the files in the technical/plos path. This is usefull because you may be looking for only files inside of a path and you may not want to see any directories and only the files inside that path. 
 
 3: 
 noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
