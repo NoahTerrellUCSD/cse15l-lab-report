@@ -67,6 +67,8 @@ The new code fixes this because as we are iterating over the original array, we 
 
 ### Find command 
 
+### Option1
+
 ***Find command with -name examples: ```find -name <file/directory name>```***
 
 source for where I found how to use this command [https://adamtheautomator.com/bash-find/](https://adamtheautomator.com/bash-find/)
@@ -86,6 +88,8 @@ $ find -name "water_fees.txt"
 ./government/Media/water_fees.txt
 ```
 What is happending is that when I used ```find -name "water_fees.txt"``` is that it searches for the file named water_fees.txt and displays the path to the file. This is useful becasue you can just use this command instead of navigating through the files with ls and cd.
+
+### Option2
 
 ***Find command with -type examples: ```find <name> -type <type>```***
 
@@ -123,6 +127,7 @@ technical/plos/journal.pbio.0020013.txt
 ```
 What is happening is that when you use find with a path and then the command -type with f following it like this ```find technical/plos -type f``` is that you are basically saying to find in this path anything of the type file so basically all of the files. As you can see when we do this it returns all of the files in the technical/plos path. This is usefull because you may be looking for only files inside of a path and you may not want to see any directories and only the files inside that path. 
 
+### Option3
 
 ***Find command with -maxdepth and -type examples: ```find <path> -maxdepth <number> -type <type>```***
 
@@ -160,6 +165,7 @@ technical/government/About_LSC/Protocol_Regarding_Access.txt
 ```
 What is happening is that when I use the find command with a path and then use the -maxdepth command with a parameter and the -type f command like this ```find technical/government/ -maxdepth 2 -type f``` is that im basically saying to find all of the files 2 directories deep in the government drectory which is why the terminal returned a bunch of files. This is useful because if I wanted to look at all of the files two directories deep in the government directory then I can just use this. 
 
+### Option4
 
 ***Find command with -iname and "**" examples: ```find <path> -maxdepth <number> -type <type>```***
 
