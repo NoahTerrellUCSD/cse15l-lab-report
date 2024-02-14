@@ -123,9 +123,47 @@ technical/plos/journal.pbio.0020013.txt
 ```
 What is happening is that when you use find with a path and then the command -type with f following it like this ```find technical/plos -type f``` is that you are basically saying to find in this path anything of the type file so basically all of the files. As you can see when we do this it returns all of the files in the technical/plos path. This is usefull because you may be looking for only files inside of a path and you may not want to see any directories and only the files inside that path. 
 
-3: 
-noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
-$ find -type f -iname "*july*"
-./technical/government/Gen_Account_Office/July11-2001_gg00172r.txt
 
+***Find command with -maxdepth and -type examples: ```find <path> -maxdepth <number> -type <type>```***
+
+source for where I found how to use this command [https://www.redhat.com/sysadmin/linux-find-command](https://www.redhat.com/sysadmin/linux-find-command)
+
+Example 1
+```
+$ find technical/ -maxdepth 1 -type d
+technical/
+technical/911report
+technical/biomed
+technical/government
+technical/plos
+
+```
+What is happening is that when I use find with a path with the -maxdepth command with a number parameter and the -type d command like this ```find technical/ -maxdepth 1 -type d``` is that im basically saying to find all of the directories one directory deep inside of the path which is why the terminal returned only the paths that are one directory after the one that I chose. This is helpful because if there are a bunch of nested directories in a directory then you can use this to see only the first layer but if you wanted to go deeper than you could jut change the number after the -maxdepth command. 
+
+Example 2
+```
+noaht@nyogaL MINGW64 ~/OneDrive/Documents/GitHub/docsearch (main)
+$ find technical/government/ -maxdepth 2 -type f
+technical/government/About_LSC/Comments_on_semiannual.txt
+technical/government/About_LSC/commission_report.txt
+technical/government/About_LSC/conference_highlights.txt
+technical/government/About_LSC/CONFIG_STANDARDS.txt
+technical/government/About_LSC/diversity_priorities.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt
+technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
+technical/government/About_LSC/ODonnell_et_al_v_LSCdecision.txt
+technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt
+technical/government/About_LSC/Progress_report.txt
+technical/government/About_LSC/Protocol_Regarding_Access.txt
+...
+```
+What is happening is that when I use the find command with a path and then use the -maxdepth command with a parameter and the -type f command like this ```find technical/government/ -maxdepth 2 -type f``` is that im basically saying to find all of the files 2 directories deep in the government drectory which is why the terminal returned a bunch of files. This is useful because if I wanted to look at all of the files two directories deep in the government directory then I can just use this. 
+
+
+
+
+
+3: 
+$ find technical/ -maxdepth 3 -type d -or -type f
 
