@@ -3,5 +3,11 @@
 ### Step 4:
 
 
+![Image]()
+```
+Keys Pressed: <up> <Enter>
+```
+
+
 
 
