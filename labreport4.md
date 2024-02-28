@@ -57,6 +57,16 @@ Keys Pressed:
 To re run the tests I used the up arrow seven times to look through my terminal history for the command to compile the java files then I pressed enter to run the command. Command: (javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java) <br/>
 I then did the same thing using the up arrow key to go through my terminal history untill I found the command to use run the tester file which was: (java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests)
 
+### Step 9 Commit and push the resulting change to your Github account:
+
+![Image]()
+
+```
+Keys Pressed:
+
+```
+
+
 
 
 
