@@ -42,6 +42,21 @@ vim L <Tab> . <Tab> <Enter>
 <Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down>
 <Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right>
 i <Backspace> 2 <Esc>
+:wq! <Enter>
+```
+
+### Step 8 Run the tests, demonstrating that they now succeed:
+
+![Image](Screenshot 2024-02-27 200746.png)
+
+```
+Keys Pressed:
+<Up><Up><Up><Up><Up><Up><Up> <Enter>
+<Up><Up><Up><Up><Up><Up><Up> <Enter>
+
+
+
+
 ```
 
 
