@@ -33,15 +33,16 @@ Then I coppied the command to run the tests and pasted it into the command line 
 
 ### Step 7 Edit the code file to fix the failing test:
 
-![Image]()
+![Image](Screenshot 2024-02-27 195318.png)
+![Image](Screenshot 2024-02-27 195900.png)
 ```
 Keys Pressed:
->
+vim L <Tab> . <Tab> <Enter>
+
+<Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down><Down>
+<Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right><Right>
+i <Backspace> 2 <Esc>
 ```
-In the first line I changed the directory to be the lab7 directory using the cd command. <br/>
-Then I used the ls command to see what files are in the directory.<br/>
-Then I coppied the command to compile the java files and pasted it into the command line using Ctrl+v (javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java)
-Then I coppied the command to run the tests and pasted it into the command line using Ctrl+v (java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore) then I added the file name (ListExamplesTests) of the file with the tests to the end of the command and then pressed enter to run it. 
 
 
 
