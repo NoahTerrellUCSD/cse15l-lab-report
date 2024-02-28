@@ -74,6 +74,11 @@ git status <Enter>
 git commit -m "Lab Report 4 Finished" <Enter>
 git push origin main <Enter>
 ```
+To commit and push to github I first used the git add command to add the ListExamples.java file to be addded to the files that will be commited. The git add command allows you to choose which files are to be commited.  <br/>
+Then I checked the status of the changes that are to be commited by using the git status command.  <br/>
+Then I Commited my changes of the ListExamples.java file by using the git commit command with the -m command to add a commit message.  <br/>
+Lastly I used the git push origin main command to push all of my changes that I wanted to commit to the main branch. 
+
 
 
 
