@@ -65,7 +65,7 @@ I then did the same thing using the up arrow key to go through my terminal histo
 
 ### Step 9 Commit and push the resulting change to your Github account:
 
-![Image]()
+![Image](Screenshot 2024-02-27 205735.png)
 
 ```
 Keys Pressed:
