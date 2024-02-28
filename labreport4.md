@@ -44,6 +44,12 @@ vim L <Tab> . <Tab> <Enter>
 i <Backspace> 2 <Esc>
 :wq! <Enter>
 ```
+To edit the code in the file I first had to use the Vim command with the filen name ListExamples.java. The Vim command allows you to edit text in the terminal. <br/>
+Then once I was inside the file through Vim my cursor started at the top left of the file so I used the down arrow 43 times to navigate down the file. <br/>
+Once I reached the line that contains the text I was supposed to edit I used the right arrow key 12 times to move the cursor to the right until I reached the text I needed to edit. <br/>
+Then since I navigated directly to the location of the text that I needed to edit I pressed the key i which in vim is used to insert text. So when I pressed i the Vim changed to insert mode so I pressed backspase to delete the 1 and then I pressed 2 to replace it with the number 2. Then I pressed the scape key to exit the insert mode. <br/>
+Lastly When I was done I saved and exited the Vim by pressing :wq! and then the enter key. The colon allows you to enter commands and the wq! command allows you to save the file and exit. 
+
 
 ### Step 8 Run the tests, demonstrating that they now succeed:
 
