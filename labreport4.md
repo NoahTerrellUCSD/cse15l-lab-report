@@ -69,8 +69,12 @@ I then did the same thing using the up arrow key to go through my terminal histo
 
 ```
 Keys Pressed:
-
+git add L <Tab> . <Tab> <Enter>
+git status <Enter>
+git commit -m "Lab Report 4 Finished" <Enter>
+got push origin main <Enter>
 ```
+
 
 
 
