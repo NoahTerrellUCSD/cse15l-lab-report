@@ -3,7 +3,7 @@
 ### Step 4:
 
 
-![Image]()
+![Image](Screenshot 2024-02-27 183915.png)
 ```
 Keys Pressed: <up> <Enter>
 ```
